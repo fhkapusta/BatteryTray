@@ -1,1 +1,0 @@
-BatteryTray.exe /stop 

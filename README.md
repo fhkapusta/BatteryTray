@@ -35,18 +35,14 @@ A lightweight, clean, and informative battery status monitor for Windows 10 and 
    ```
 
 4. **Context Menu (Right-Click on Tray Icon)**:
-   - **Battery Status**: e.g., `Battery: 85% [AC Connected]` or `Battery: 45% [On Battery]`.
-   - **Power Source & Time**: e.g., `AC Power Connected` or `Remaining: ~2h 15m`.
-   - **Test View**: Interactive instant tester for 1%, 9%, 15%, 25%, 50%, 99%, 100% and AC states.
-   - **Theme**: Select Black or White digits for transparent battery mode.
-   - **Red Alert Threshold**: Quick select (10%, 15%, 20%, 25%, 30%) or enter a custom threshold.
-   - **Low Battery Notifications**: Toggle Windows toast notifications.
-   - **Start with Windows**: Toggle autostart on system boot (via Windows Registry `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`).
-   - **Battery Details...**: Opens an informative status window.
-   - **About...**: Displays application icon, title, description, GitHub link, and Close button.
-   - **Refresh Now**: Forces immediate state poll and icon redraw.
-   - **Exit**: Cleanly quits the background monitor.
----
+   - **Test View**: Interactive instant tester for percentages, AC charging, and No Sleep mode.
+   - **Settings (Cascading Submenu)**:
+     - **Theme**: Select Black or White digits for transparent battery mode.
+     - **Red Alert Threshold**: Quick select (10%, 15%, 20%, 25%, 30%) or enter a custom threshold.
+     - **Low Battery Notifications**: Toggle Windows toast notifications.
+     - **Start with Windows**: Toggle autostart on system boot (via Windows Registry `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`).
+     - **Open config.ini**: Directly opens the configuration file in your default text editor (e.g., Notepad).
+   - **No Sleep Mode**: Toggle Windows screen & system sleep prevention (shows vibrant blue tray icon).
 
 ## How to Run
 
