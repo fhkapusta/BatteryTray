@@ -10,7 +10,6 @@ A lightweight, clean, and informative battery status monitor for Windows 10 and 
    - **Green Background for AC Power (Charging)**: When connected to AC power, the icon displays a vibrant rounded green background with crisp white digits. No extra lightning bolt clutter.
    - **Red Background for Low Battery Alert**: When unplugged on battery and charge drops to or below threshold (default: <= 20%), the icon displays a warning red background with crisp white digits.
    - **Transparent Background for Normal Mode**: When operating normally on battery power, the background is completely transparent.
-   - **Digits Sized to Match Windows Taskbar Clock**: Rendered using standard Windows system font (**Segoe UI**) with digit height matching the taskbar clock numbers.
    - **Two Built-in Themes (for Transparent Mode)**:
      - **Black**: Flat black digits on transparent (default, for light taskbars).
      - **White**: Flat white digits on transparent (for dark taskbars).
@@ -32,7 +31,6 @@ A lightweight, clean, and informative battery status monitor for Windows 10 and 
    refresh_interval_sec = 3
    enable_notifications = true
    autostart = false
-   ```
 
 4. **Context Menu (Right-Click on Tray Icon)**:
    - **Test View**: Interactive instant tester for percentages, AC charging, and No Sleep mode.
@@ -46,9 +44,6 @@ A lightweight, clean, and informative battery status monitor for Windows 10 and 
 
 ## How to Run
 
-### Standalone Executable (Recommended)
-Simply run:
-- **`BatteryTray.exe`**
 
 ### Command-Line Usage
 
