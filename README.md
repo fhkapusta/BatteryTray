@@ -42,10 +42,6 @@ A lightweight, clean, and informative battery status monitor for Windows 10 and 
      - **Open config.ini**: Directly opens the configuration file in your default text editor (e.g., Notepad).
    - **No Sleep Mode**: Toggle Windows screen & system sleep prevention (shows vibrant blue tray icon).
 
-## How to Run
-
-
-### Command-Line Usage
-
-# Stop any running BatteryTray instance
+## Stop any running BatteryTray instance
 .\BatteryTray.exe /stop
+
