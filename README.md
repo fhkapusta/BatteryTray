@@ -2,6 +2,9 @@
 
 A lightweight, clean, and informative battery status monitor for Windows 10 and Windows 11, residing in the system notification area (near the clock).
 
+<img width="347" height="46" alt="image" src="https://github.com/user-attachments/assets/a3cf9b83-33aa-4987-b9a7-8173d0843747" />
+<img width="357" height="193" alt="image" src="https://github.com/user-attachments/assets/5be90681-a0ca-4fba-8674-03495ad21edf" />
+
 ---
 
 ## Features
